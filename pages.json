@@ -1,0 +1,244 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+		"tabBar":{
+		    "color":"#FFFFFF",
+		    "selectedColor":"#FFFFFF",
+		    "backgroundColor":"#08091e",
+		    "borderStyle":"#08091e",
+		    "list":[
+		        {
+		            "pagePath":"pages/index/index",
+		            "text":"首页",
+		            "iconPath":"static/tabbar/indexhover.png",
+		            "selectedIconPath":"static/tabbar/indextab.png"
+		        },
+				{
+				    "pagePath":"pages/found/index",
+				    "text":"发现",
+				    "iconPath":"static/tabbar/sucaihover.png",
+				    "selectedIconPath":"static/tabbar/sucaitab.png"
+				},
+		        {
+		            "pagePath":"pages/collection/index",
+		            "text":"收藏",
+		            "iconPath":"static/tabbar/myhover.png",
+		            "selectedIconPath":"static/tabbar/mytab.png"
+		        },
+				{
+				    "pagePath":"pages/my/index",
+				    "text":"我的",
+				    "iconPath":"static/tabbar/myhover.png",
+				    "selectedIconPath":"static/tabbar/mytab.png"
+				}
+		  
+		    ]
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "食图图视频素材库"
+		// 	},
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/opinion",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/my/materialList",
+			"style": {
+				"navigationBarTitleText": "素材包记录",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私政策",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/serviceAgreement",
+			"style": {
+				"navigationBarTitleText": "服务协议",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/list/buyDetail",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce":"none",
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/my/member",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/my/fit",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": true //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/material",
+			"style": {
+				"navigationBarTitleText": "素材包",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/materialDetail",
+			"style": {
+				"navigationBarTitleText": "素材包详情",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/list/index",
+			"style": {
+				"navigationBarTitleText": "素材列表"
+			}
+		},
+		{
+			"path": "pages/list/video",
+			"style": {
+				"navigationBarTitleText": "视频列表"
+			}
+		},
+	
+		{
+			"path": "pages/list/videoDetail",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/my/download",
+			"style": {
+				"navigationBarTitleText": "下载记录"
+			}
+		},
+		{
+			"path": "pages/my/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+	    {
+            "path" : "components/header/header",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+	  
+}
